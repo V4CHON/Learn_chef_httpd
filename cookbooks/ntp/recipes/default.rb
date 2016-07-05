@@ -7,9 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'ntp'
+package 'ntpd'
 
-service 'ntp' do
+service 'ntpd' do
 	action[:enabled, :start]
 end
 
