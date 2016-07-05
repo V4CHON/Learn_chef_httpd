@@ -1,0 +1,8 @@
+restrict default ignore
+restrict 127.0.0.1
+restrict ntp1.i.frys.com nomodify notrap noquery
+restrict ntp2.i.frys.com nomodify notrap noquery
+server ntp1.i.frys.com
+server ntp2.i.frys.com
+driftfile /var/lib/ntpdrift
+broadcastdelay 0.008
