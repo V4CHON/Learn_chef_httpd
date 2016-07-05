@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'ntpd'
+package 'ntp'
 
 service 'ntpd' do
 	action [:enable, :start]
