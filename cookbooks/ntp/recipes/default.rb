@@ -10,7 +10,7 @@
 package 'ntpd'
 
 service 'ntpd' do
-	action [:enabled, :start]
+	action [:enable, :start]
 end
 
 template '/etc/ntp.conf' do 
