@@ -9,7 +9,7 @@
 package 'httpd'
 
 service 'httpd' do
-  action [:enable, :start]
+  action [:stop, :disable]
 end
 
 template '/var/www/html/index.html' do
