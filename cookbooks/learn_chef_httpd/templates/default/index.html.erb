@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <h1>Hello from <%= node['fqdn']%>.</h1>
+    <h2>My name is <%= node['hostname']%></h2>
+    <h3>and I have <%= node['ohai_time']%></h3>
+    <h4>I also operate on <%= node['platform']%><%= node['platform_version']%></h4>
+	<pre>
+		<%= node['memory']['total'] %> RAM
+		<%= node['cpu']['total'] %>CPUs
+
+	</pre>
+
+  </body>
+</html>
